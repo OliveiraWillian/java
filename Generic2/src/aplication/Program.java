@@ -1,5 +1,6 @@
 package aplication;
 
+import entities.Product;
 import services.CalculationService;
 
 import java.io.BufferedReader;
@@ -11,7 +12,7 @@ import java.util.List;
 public class Program {
         public static void main(String[] args) {
 
-            List<Integer> list = new ArrayList<>();
+            List<Product> list = new ArrayList<>();
 
             String path = "C:\\Users\\willi\\Documents\\Java\\in.txt";
 
@@ -19,11 +20,13 @@ public class Program {
 
                 String line = br.readLine();
                 while (line != null) {
-                    list.add(Integer.parseInt(line));
+                    String[] split = line.split(",");
+
+                    list.add(new Product(split[0],Double.parseDouble(split[1])));
                     line = br.readLine();
                 }
 
-                Integer x = CalculationService.max(list);
+                Product x = CalculationService.max(list);
                 System.out.println("Max:");
                 System.out.println(x);
 

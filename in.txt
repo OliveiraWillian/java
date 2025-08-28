@@ -1,9 +1,5 @@
-Alex Blue,15
-Maria Green,22
-Bob Brown,21
-Alex Blue,30
-Bob Brown,15
-Maria Green,27
-Maria Green,22
-Bob Brown,25
-Alex Blue,31
+Maria,maria@gmail.com,3200.00
+Alex,alex@gmail.com,1900.00
+Marco,marco@gmail.com,1700.00
+Bob,bob@gmail.com,3500.00
+Anna,anna@gmail.com,2800.00

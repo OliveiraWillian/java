@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="java-libs">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../java-libs" />
+      <root url="jar://$PROJECT_DIR$/../java-libs/jdbc-connectors/postgresql-42.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
